@@ -5,3 +5,7 @@ task :default => :run
 task :run do
   require './lib/hello'
 end
+
+task :save => :run  
+  require './lib/hello'
+end
