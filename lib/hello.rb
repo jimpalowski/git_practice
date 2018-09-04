@@ -11,3 +11,7 @@ puts "Hello, #{name}!"
 first = ARGV.first || "Hi"
 
 puts "Hello, #{name}!"
+
+middle = ARGV.first || "Hi"
+
+puts "Hello, #{name}!"
