@@ -9,3 +9,7 @@ end
 task :save => :run  
   require './lib/hello'
 end
+
+task :terminate => :run  
+  require './lib/hello'
+end
