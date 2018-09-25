@@ -6,10 +6,14 @@ task :run do
   require './lib/hello'
 end
 
-task :save => :run  
+task :save => :run
   require './lib/hello'
 end
 
-task :terminate => :run  
+task :terminate => :run
+  require './lib/hello'
+end
+
+task :extend => :run
   require './lib/hello'
 end
